@@ -1,0 +1,66 @@
+ /* Admin sayfası stilleri */
+         .admin-form {
+            margin-bottom: 20px;
+        }
+
+        .admin-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .admin-form input[type="text"],
+        .admin-form textarea {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        .admin-form input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .mesajlar {
+            margin-bottom: 20px;
+        }
+
+        .mesaj {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .mesaj-baslik {
+            font-weight: bold;
+        }
+
+        .mesaj-bilgi {
+            font-size: 12px;
+            color: #888;
+        }
+
+        .sil-link {
+            color: red;
+            cursor: pointer;
+        }
+
+        .sayfalama {
+            margin-top: 20px;
+        }
+
+        .sayfalama a {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #f1f1f1;
+            color: #333;
+            text-decoration: none;
+            margin-right: 5px;
+        }
+
+        .sayfalama a.active {
+            background-color: #4CAF50;
+            color: #fff;
+        }

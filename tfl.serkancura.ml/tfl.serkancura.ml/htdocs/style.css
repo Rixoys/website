@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.satirlar{margin-top:5%; padding:15px; font-family: Arial;}
+.satirlar div{float:left;}
+.satir100{width: 100%; height: auto; text-align: justify;} 
+.satir50{width: 47%; height: auto;}
+.satir25{width: 25%; height: 300px;}
+.satir33{width: 33%; height:15%; color:black;}
+.satirlar:after{content: ""; display: table; clear: both;}
+body{margin: 0px;}
+main{width: 85%; margin:auto;}
+.madde{margin: 20px 0; padding:15px;}

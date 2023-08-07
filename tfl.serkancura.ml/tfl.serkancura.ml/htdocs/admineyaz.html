@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>TFL - Admin'e Yaz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="stylemain.css">
+</head>
+<body>
+    <header>
+            <div class="topnav">
+            <a href="index.php" class="active">Ana Sayfa</a>
+            <a href="mesajlar.php">Mesajlar</a>
+            <a href="mesajyaz.html">Mesaj Yaz</a>
+            <a href="/oylama/index.php">Oylamalar</a>
+            <a href="admineyaz.html">Admin'e yazın</a>
+            <a href="/admin/index.html">Admin Kontrol Paneli</a>
+            <a href="#">Kullanıcılar</a> <br/><br/>
+        </div>
+        <div class="header">
+            <h1>Site Adminine Yazın. Buraya Yazdıklarınızı Sadece Adminler Görebilir. Ancak Cevap Veremeyiz.</h1> 
+        </div>
+    </header>
+    <form action="mesaj_kaydetadmin.php" method="post">
+        <label for="isim">İsim:</label>
+        <input type="text" name="isim" id="isim" required>
+
+        <label for="cinsiyet">Cinsiyet:</label>
+        <select name="cinsiyet" id="cinsiyet">
+            <option value="Erkek">Erkek</option>
+            <option value="Kız">Kız</option>
+            <option value="Atak helikopteri">Atak helikopteri</option>
+        </select>
+
+        <label for="sinif">Sınıf Düzeyi:</label>
+        <select name="sinif" id="sinif">
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="Belirtmek İstemiyor">Belirtmek İstemiyor </option>
+        </select>
+
+        <label for="mesaj">Mesaj:</label>
+        <textarea name="mesaj" id="mesaj" reuired></textarea>
+
+        <input type="submit" value="Gönder">
+    </form>
+</body>
+</html>

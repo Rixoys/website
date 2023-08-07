@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.filtreler {
+    margin-bottom: 20px;
+}
+
+.filtreler label {
+    margin-right: 10px;
+}
+
+.mesajlar {
+    margin-bottom: 20px;
+}
+
+.mesaj {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.mesaj-baslik {
+    font-weight: bold;
+}
+
+.mesaj-bilgi {
+    font-size: 12px;
+    color: #888;
+}
+
+.sayfalama {
+    text-align: center;
+}
+
+.sayfalama a {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #eee;
+    text-decoration: none;
+    color: #333;
+}
+
+.sayfalama a:hover {
+    background-color: #ccc;
+}
+body{margin: 0px;}
